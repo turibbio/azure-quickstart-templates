@@ -76,7 +76,7 @@
     "publicIPAddressName": "[concat('publicip', variables('uniqueStringValue'))]",
     "publicIPAddressType": "[parameters('publicIPAddressType')]",
     "nicName": "[concat('nic', variables('uniqueStringValue'))]",
-    "windowsOSVersion": "2012-R2-Datacenter",
+    "windowsOSVersion": "2019-Datacenter",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "defaultAgentGroupName": "[resourceGroup().name]",
     "networkSecurityGroupName": "default-NSG"
